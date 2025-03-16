@@ -13,12 +13,26 @@ SurEnv/
 *.avi
 *.mov
 *.mkv
+*.webm
+*.mp3
+*.wav
+*.ogg
 
 # Exclude logs
 *.log
 
 # Exclude macOS system files
 .DS_Store
+
+# Exclude sensitive data
+.env
+*.key
+credentials.json
+*_credentials.*
+*_tokens.*
+*_secrets.*
+secret_*
+token_*
 
 # Python
 __pycache__/
