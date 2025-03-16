@@ -1,0 +1,43 @@
+# Exclude specific folders
+cp_camera_images/
+analysis_results/
+extracted_frames/
+SurEnv/
+
+# Exclude media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Exclude logs
+*.log
+
+# Exclude macOS system files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
